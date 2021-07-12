@@ -1,16 +1,26 @@
 import React from 'react'
+import Navbar from './components/Navbar'
+import Intro from './components/Intro'
+import About from './components/About'
+import Projects from './components/Projects'
+import Contact from './components/Contact'
+
+
+
 
 function App() {
-  React.useEffect(() => {
-    const getData = async () => {
-      const res = await fetch('/api/endpoint') // * <-- replace with your endpoint
-      const data = await res.json()
-      console.log(data)
-    }
-    getData()
-  })
 
-  return <h1>Hello World</h1>
+  return (
+    <>
+      <Navbar />
+      <Intro />
+      <About />
+      <Projects />
+      <Contact />
+    </>
+
+  )
 }
 
 export default App
+
