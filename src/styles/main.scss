@@ -17,7 +17,6 @@
   font-weight: bold;
   list-style: none;
   font-family: 'Encode Sans SC', sans-serif;
-  // font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
 }
 
@@ -28,7 +27,7 @@
 
 //Intro Section
 .intro-section{
-  height:100vh;
+  height:92vh;
 
 }
 
@@ -36,18 +35,26 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  align-items: center;
   justify-content: center;
   font-family: Helvetica;
   height: 100%;
 }
 
 
-//Text entry
+//Initial Text entry
 .focus-in-contract-bck{-webkit-animation:focus-in-contract-bck 1s cubic-bezier(.25,.46,.45,.94) .5s both;animation:focus-in-contract-bck 1s cubic-bezier(.25,.46,.45,.94) .5s both}
 @-webkit-keyframes focus-in-contract-bck{0%{letter-spacing:1em;-webkit-transform:translateZ(300px);transform:translateZ(300px);-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-transform:translateZ(12px);transform:translateZ(12px);-webkit-filter:blur(0);filter:blur(0);opacity:1}}@keyframes focus-in-contract-bck{0%{letter-spacing:1em;-webkit-transform:translateZ(300px);transform:translateZ(300px);-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-transform:translateZ(12px);transform:translateZ(12px);-webkit-filter:blur(0);filter:blur(0);opacity:1}}
 
 .focus-in-contract-bck-2{-webkit-animation:focus-in-contract-bck 1s cubic-bezier(.25,.46,.45,.94) 1.5s both;animation:focus-in-contract-bck 1s cubic-bezier(.25,.46,.45,.94) 1.5s both}
 @-webkit-keyframes focus-in-contract-bck-2{0%{letter-spacing:1em;-webkit-transform:translateZ(300px);transform:translateZ(300px);-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-transform:translateZ(12px);transform:translateZ(12px);-webkit-filter:blur(0);filter:blur(0);opacity:1}}@keyframes focus-in-contract-bck{0%{letter-spacing:1em;-webkit-transform:translateZ(300px);transform:translateZ(300px);-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-transform:translateZ(12px);transform:translateZ(12px);-webkit-filter:blur(0);filter:blur(0);opacity:1}}
+
+//Name and image div entry
+.text-focus-in{-webkit-animation:text-focus-in 0.7s cubic-bezier(.55,.085,.68,.53) both;animation:text-focus-in 0.7s cubic-bezier(.55,.085,.68,.53) both}
+@-webkit-keyframes text-focus-in{0%{-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}@keyframes text-focus-in{0%{-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}
+
+
+
 
 
 #myname{
@@ -70,20 +77,24 @@
 }
 
 .header-div{
+  display: flex;
+  justify-content: flex-start;
   text-align: left;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   color:  #000e1b;
-  margin-top: 0px;
-  padding-left:10%;
+  margin-top: 20px;
+  padding-left:5%;
 
 }
 
-#image-div{
-  border: 1px solid black;
-  width: 80%;
-  height: 60%;
-  margin-left:10%;
+#intro-image-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 70%;
+  margin-bottom: 15%;
 }
 
 
@@ -98,8 +109,102 @@
 
 //Projects-section
 .projects-section{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
   height:100vh;
 }
+
+.sc-bdnxRM{
+  color: #000e1b !important;
+  background-color: white !important;
+  box-shadow: none !important;
+  font-size: 50px !important;
+}
+
+//Carousel 
+
+//Side arrow buttons
+.sc-bdnxRM{
+  color: #000e1b !important;
+  background-color: white !important;
+  box-shadow: none !important;
+  font-size: 36px !important;
+  padding: 4% !important;
+}
+
+//Lower dots
+.ejXxNI{
+  box-shadow:0 0 1px 3px black !important;
+  background-color: white !important;
+}
+
+
+#section-header{
+  font-size: 40px;
+  margin-top: 10px;
+  font-family: 'Encode Sans SC', sans-serif;
+  color:  #000e1b;
+  text-align: left;
+  margin-left: 10%;
+  // font-family: 'Montserrat', sans-serif;
+}
+
+
+#card-title{
+  font-size: 30px;
+  margin-top: 10px;
+  text-align: left;
+  font-family: 'Encode Sans SC', sans-serif;
+  color:  #000e1b;
+}
+
+.card-div{
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-content: center;
+  height: 65vh;
+  max-width: 130vh;
+}
+
+#description-div{
+  width: 40%;
+  border: lightgrey;
+}
+
+#inner-description-div{
+  margin-top: 8%;
+  border: lightgrey;
+  padding: 20px;
+  text-align: left;
+}
+
+
+#image-div{
+  width: 54%;
+  margin-top: 6%;
+  margin-right: 8%;
+  background-image: url("https://i.imgur.com/DcbExtK.png");
+  background-repeat: no-repeat;
+  background-size: 96% auto;
+
+}
+
+
+#inner-image{
+  max-width:90%;
+  height: auto;
+  margin-right: 4%;
+  margin-top: 2%;
+  border-top: 12px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 4px solid black;
+}
+
+
 
 //Contact section
 .contact-section{
