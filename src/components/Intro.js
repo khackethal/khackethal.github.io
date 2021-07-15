@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link }  from 'react-scroll'
 
 function Intro() {
 
@@ -15,12 +14,12 @@ function Intro() {
         <div className="intro-section"> 
           { showIntro && 
             <>
-              <div className="content-div">
-                <div className="animation-div">
-                  <h1 id="myname" className="focus-in-contract-bck" >Kat Hackethal</h1>
-                  <h2 id="job-title" className="focus-in-contract-bck-2">Software Engineer</h2>
-                </div>
+
+              <div className="animation-div">
+                <h1 id="myname" className="focus-in-contract-bck" >Kat Hackethal</h1>
+                <h2 id="job-title" className="focus-in-contract-bck-2">Software Engineer</h2>
               </div>
+
             </> 
           } 
           { !showIntro &&
@@ -31,12 +30,12 @@ function Intro() {
                   <h2>Software Engineer</h2>
                 </div>
               </div>
-              <div className="content-div">
+              <div></div>
+              <div className="intro-card-div">
                 <div className="text-focus-in" id="intro-image-div">
-                  <li className="link"><Link activeClass="active" to="projects" spy={true} smooth={true}>
-                  IMAGE DIV
-                  </Link></li>
+                  <img id="intro-image"  src="https://s6.gifyu.com/images/intro_allprojects.gif" alt="project-reel"/>
                 </div>
+                <div className="second-div"></div>
               </div>
             </>
           } 
