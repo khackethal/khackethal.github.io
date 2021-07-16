@@ -5,7 +5,11 @@
   flex-direction: row;
   justify-content: flex-end;
   height: 60px;
-  border-bottom: 1px solid black;
+  width: 100%;
+  // border-bottom: 1.5px solid black;
+  box-shadow: 0.5px 1px 5px 1px lightgrey;
+  margin: 0px;
+
 }
 
 .link{
@@ -16,7 +20,8 @@
   font-family: Helvetica;
   font-weight: bold;
   list-style: none;
-  font-family: 'Encode Sans SC', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  // font-family: 'Encode Sans SC', sans-serif;
   text-transform: uppercase;
 }
 
@@ -34,6 +39,7 @@
 .content-div{
   display: flex;
   flex-grow: 1;
+  flex-wrap: wrap;
   flex-direction: row;
   text-align: center;
   align-items: center;
@@ -43,7 +49,7 @@
 
 .animation-div{
   text-align: center;
-  padding-top: 20%;
+  padding-top: 18%;
 }
 
 
@@ -88,7 +94,7 @@
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   color:  #000e1b;
-  margin-top: 20px;
+  margin-top: 5px;
   padding-left:5%;
 
 }
@@ -96,8 +102,22 @@
 .intro-card-div{
   display: flex;
   flex-grow: 1;
-  height: 100vh;
+  height: 70vh;
   max-width: 80%;
+}
+
+#contact-button-2{
+  background-color: black;
+  color: white;
+  box-shadow: 0.5px 1px 5px 1px rgb(143, 140, 140);
+  border: 1px solid black;
+  border-radius: 8%;
+  margin-right: 10px;
+  height: 35px;
+}
+
+#linkedin{
+  border-top: 3px solid black;
 }
 
 
@@ -114,9 +134,6 @@
 
 }
 
-
-
-
 #intro-image{
   width:90%;
   height: auto;
@@ -126,16 +143,108 @@
   border-bottom: 12px solid black;
 }
 
+.intro-link{
+  color:  #000e1b;
+  text-decoration: none;
+  list-style: none;
+}
+
+.intro-link:hover{
+  color: darkblue;
+  cursor: s-resize;
+}
 
 
 
 
 //About section
 .about-section{
-  height:100vh;
-  background-color: #000e1b;
+  display: flex;
+  flex-direction: column;
+  flex-grow:1;
+  min-height:100vh;
+  background-color: black;
+
+}
+
+#about-section-header{
+  font-size: 40px;
+  margin-top: 6%;
+  font-family: 'Encode Sans SC', sans-serif;
+  color:  white;
+  text-align: left;
+  margin-left: 10%;
+}
+
+
+.inner-about-section{
+  display: flex;
+  flex-direction: row;
+  flex-grow:1;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.left-side-about{
+  width: 30%;
+  height: 75%;
+  // background-color: white;
+  background-color: black;
+  box-shadow: 0.5px 1px 5px 1px lightgrey;
+  padding: 20px;
+  padding-bottom: 5px;
+  border-radius: 2%;
+  margin-left: 8%;
+}
+
+#about-portrait{
+  box-shadow: 0.5px 1px 5px 1px lightgrey;
+  border-radius: 40%;
+}
+
+.about-text-div{
+  max-width: 90%;
+  height: 75%;
+  padding: 20px;
+  font-family: Helvetica;
+  text-align: left;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  padding-bottom: 2px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 10px;
+  // box-shadow: 0.5px 1px 5px 1px lightgrey;
+  border-radius: 2%;
+}
+
+.right-side-about{
+  height: 75%;
+  max-width: 45%;
+  min-width: 400px;
+  background-color: black;
+  color: white;
+  font-family: Helvetica;
+  box-shadow: 0.5px 1px 5px 1px lightgrey;
+  padding: 20px;
+  border-radius: 2%;
+}
+
+#about-card-title{
+  font-size: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: left;
+  font-family: 'Encode Sans SC', sans-serif;
   color: white;
 }
+
+
+
+
+
 
 //Projects-section
 .projects-section{
@@ -143,7 +252,7 @@
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  height:100vh;
+  min-height:100vh;
 }
 
 .sc-bdnxRM{
@@ -183,39 +292,56 @@
 
 
 #card-title{
-  font-size: 30px;
-  margin-top: 10px;
+  font-size: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   text-align: left;
   font-family: 'Encode Sans SC', sans-serif;
   color:  #000e1b;
 }
 
+#card-subtitle{
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-family: 'Encode Sans SC', sans-serif;
+  text-decoration: underline;
+}
+
 .card-div{
   display: flex;
   flex-grow: 1;
+  // flex-wrap:wrap;
   justify-content: space-between;
   align-content: center;
-  height: 65vh;
+  min-height: 65vh;
   max-width: 130vh;
 }
 
 #description-div{
-  width: 40%;
-  border: lightgrey;
+  display: flex-column;
+  align-items: center;
+  width: 45%;
+  height: 90%;
 }
 
 #inner-description-div{
-  margin-top: 8%;
+  margin: 5%;
   border: lightgrey;
   padding: 20px;
+  min-height: 290px;
   text-align: left;
+  font-family: Helvetica;
+  font-size: 15px;
+  background-color: white;
+  box-shadow: 0.5px 1px 5px 1px lightgrey;
+  border-radius: 2%;
 }
 
 
 #image-div{
-  width: 54%;
-  margin-top: 6%;
-  margin-right: 8%;
+  width: 55%;
+  margin-top: 4%;
+  margin-right: 4%;
   background-image: url("https://i.imgur.com/DcbExtK.png");
   background-repeat: no-repeat;
   background-size: 96% auto;
@@ -234,11 +360,102 @@
   border-bottom: 4px solid black;
 }
 
+.card-link{
+  color: white;
+  float:left;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: Helvetica;
+  font-weight: bold;
+  list-style: none;
+  font-family: 'Encode Sans SC', sans-serif;
+  text-transform: uppercase;
+}
+
+.button-div{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.button-link{
+  background-color: black;
+  border-radius: 8%;
+}
+
 
 
 //Contact section
 .contact-section{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
   height:100vh;
-  background-color:  #000e1b;
-  color: white;
+  background-color: black;
+
 }
+
+.contact-header-div{
+  width: 40%;
+  margin: 2%;
+  color: white;
+  background-color: black;
+  // box-shadow: 0.5px 1px 5px 1px lightgrey;
+  border-radius: 2%;
+
+}
+
+.contact-second-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  width: 40%;
+  margin: 2%;
+  font-size: 16px;
+  background-color: black;
+  box-shadow: 0.5px 1px 5px 1px lightgrey;
+  border-radius: 2%;
+}
+
+#contact-button{
+  display: block;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 2%;
+  margin: 5px;
+}
+
+#contact-button-1{
+  display: block;
+  background-color: black;
+  color: white;
+  box-shadow: 0.5px 1px 5px 1px lightgrey;
+  border: 1px solid black;
+  border-radius: 4%;
+  margin: 10px;
+}
+
+#contact-header{
+  font-size: 40px;
+  // margin-top: 15px;
+  font-family: 'Encode Sans SC', sans-serif;
+  color:  white;
+  text-align: center;
+}
+
+#email-header{
+  font-size: 22px;
+  margin-top: 10px;
+  font-family: 'Encode Sans SC', sans-serif;
+  color:  white;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
