@@ -10,6 +10,8 @@ function Contact() {
       <div></div>
       <div className="contact-header-div">
         <h1 id="contact-header">Contact</h1>
+      
+
       </div>
       <div className="contact-second-div">
         <button id="contact-button"><a id="email-header" href="mailto:khackethal.freelance@gmail.com"><h2 id="email-header">khackethal.freelance@gmail.com</h2></a></button>
