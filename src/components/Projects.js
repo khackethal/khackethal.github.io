@@ -2,7 +2,7 @@ import React from 'react'
 import Carousel from 'react-elastic-carousel'
 
 
-function Projects() {
+function Projects() { 
 
   const projects = [ 
     { id: 1, title: 'Tripbook', image: 'https://s6.gifyu.com/images/Screen-Recording-2021-07-13-at-16.41.21-1.gif', header: 'Solo project, 8 days',
@@ -18,7 +18,7 @@ function Projects() {
       description: 'I love PacMan, so when we got the brief to pick one classic game and recreate it using purely JavaScript the decision was easy. I wanted to make it look as close to the original Arcade Game as possible.',
       site: 'https://khackethal.github.io/project-1/' , github: 'https://github.com/khackethal/project-1' },
     { id: 5, title: 'SpaceLab' , image: 'https://s6.gifyu.com/images/Screen-Recording-2021-07-13-at-17.23.39.gif', header: 'Ongoing Side Project, Goup of several UX Designers, Data Scientists and Software Engineers',
-      description: 'great project',
+      description: 'Ongoing side project, working with a great team of Data Scientists and UX Designers. Our aim is to create a website that uses a new algorithm developed by the Data Scientists to analyse data from the TESS and KEPLER telescopes and discover new exoplanets. ',
       site: 'http://spacelab.space/' , github: 'https://github.com/khackethal/spacelab' }
   ]
 

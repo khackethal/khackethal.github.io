@@ -8,17 +8,17 @@ function About () {
 
   return (
     <section className="about-section" id="about">
-      <h1  id="about-section-header">About</h1>
+      <h1  id="about-section-header"></h1>
 
       <div className="inner-about-section">
         <div className="left-side-about">
           <div>
-            <h2 id="about-card-title-black"></h2>
+            <h2 id="about-card-title-black">About</h2>
           </div>
           <div className="about-text-div">
           My very first job was at an e-commerce startup, <br></br> where I was involved in shoot production but also very close to the software engineering team, which helped me to develop a good understanding of the Frontend and Backend setup of the website. <p>That job started my interest in coding, leading to several courses taken in my spare time, and finally the decision to switch to Software Engineering full time.
           I’m curious to learn, I love a good puzzle and finding solutions. </p> <p>I have great experience working in and managing teams, and an excellent understanding of other job roles and the lifecycle of delivering a product to clients. 
-              <br></br>I’m currently looking for a position as Junior Software Engineer, ideally working with React. </p>
+            </p><p>I’m currently looking for a position as Junior Software Engineer, ideally working with React. </p>
             <div className="portrait-div">
               <img  id="about-portrait" width="90px" src="https://i.imgur.com/Jn4jAQC.png" alt="linkedin logo"/>
             </div>
