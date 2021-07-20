@@ -531,10 +531,13 @@
     text-align: center;
     margin-top: 15%;
   }
+  .intro-card-div{
+    margin-top: 80px;
+  }
 }
 
 // styling for mobile/ small screen
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .navbar{
     justify-content: space-around;
   }
@@ -614,8 +617,15 @@
 }
 }
 
-//Lower dots
-.ejXxNI{
-  box-shadow:0 0 1px 3px black !important;
-  background-color: white !important;
+// styling for ipad pro
+@media only screen and (max-width: 1025px) {
+  .navbar{
+    justify-content: space-around;
+  }
+  .header-div{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15%;
+  }
 }
