@@ -29,10 +29,10 @@
 }
 
 Intro Section
-// .intro-section{
-//   height:100vh;
+.intro-section{
+  height:92vh;
 
-// }
+}
 
 .content-div{
   display: flex;
@@ -42,12 +42,12 @@ Intro Section
   text-align: center;
   align-items: center;
   font-family: Helvetica;
-  height: 100%;
 }
 
 .animation-div{
   text-align: center;
   padding-top: 18%;
+  height: 100vh;
 }
 
 
