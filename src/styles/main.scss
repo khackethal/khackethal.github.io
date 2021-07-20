@@ -540,7 +540,7 @@
 // styling for mobile/ small screen
 @media only screen and (max-width: 700px) {
   .navbar{
-    justify-content: center;
+    justify-content: space-evenly;
     width: 100%;
     margin-left: 0px;
     margin-right: 1px;
@@ -552,7 +552,6 @@
     padding-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
-    // margin-right: 2px;
   }
   .header-div{
     align-items: center;
