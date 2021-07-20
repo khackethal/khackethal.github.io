@@ -20,10 +20,12 @@ function About () {
           I’m curious to learn, I love a good puzzle and finding solutions. </p> <p>I have great experience working in and managing teams, and an excellent understanding of other job roles and the lifecycle of delivering a product to clients. 
             </p><p>I’m currently looking for a position as Junior Software Engineer, ideally working with React. </p>
             <div className="portrait-div">
-              <img  id="about-portrait" width="90px" src="https://i.imgur.com/Jn4jAQC.png" alt="linkedin logo"/>
+              <img  id="about-portrait" width="90px" src="https://i.imgur.com/pwie0Y7.png" alt="linkedin logo"/>
             </div>
           </div>
         </div>
+
+        
 
         <div className="right-side-about">
 
