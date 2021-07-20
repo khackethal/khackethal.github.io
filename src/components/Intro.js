@@ -38,7 +38,7 @@ function Intro() {
               <li className="intro-link"><Link activeClass="active" to="projects" spy={true} smooth={true}>
                 <div className="intro-card-div">
                   <div className="text-focus-in" id="intro-image-div">
-                    <img id="intro-image"  src="https://s6.gifyu.com/images/intro_allprojects.gif" alt="project-reel"/>
+                    <img id="intro-image"  src="https://s6.gifyu.com/images/intro-allprojects_v3.gif" alt="project-reel"/>
                   </div>
                 </div>
               </Link></li>
@@ -47,7 +47,6 @@ function Intro() {
         </div> 
       </section>
 
-      
     </>
   )
 }

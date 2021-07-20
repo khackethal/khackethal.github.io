@@ -516,9 +516,20 @@
   text-align: center;
   text-decoration: none;
 }
+// styling for ipad pro
+@media only screen and (max-width: 1025px) {
+  .navbar{
+    justify-content: space-around;
+  }
+  .header-div{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15%;
+  }
+}
 
-
-// styling for mobile
+// styling for mobile/ small screen
 @media only screen and (max-width: 600px) {
   .navbar{
     justify-content: space-around;
@@ -559,9 +570,10 @@
 
   .projects-section{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: wrap;
     margin-bottom: 8%;
   }
+
   .card-div{
     display: flex;
     flex-wrap: wrap;
@@ -570,8 +582,9 @@
   
 }
 #inner-description-div{
-  min-width: 190px;
+  min-width: 198px;
   margin-left: 35px;
+  box-shadow: none;
 }
 #image-div{
  margin-left: 10%;
@@ -593,6 +606,4 @@
   font-size: 20px;
 }
 }
-
-
 
