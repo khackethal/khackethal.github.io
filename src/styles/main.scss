@@ -539,20 +539,20 @@
 
 // styling for mobile/ small screen
 @media only screen and (max-width: 700px) {
-  .body{
-    margin: 0px;
-    padding: 0px;
-  }
   .navbar{
     justify-content: center;
     width: 100%;
-    margin-left: 0%;
-    margin-right: 2px;
+    margin-left: 0px;
+    margin-right: 1px;
+    min-width: 350px;
+    text-align: center;
   }
   .link{
     padding: 15px;
     padding-top: 20px;
-    padding-left: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    // margin-right: 2px;
   }
   .header-div{
     align-items: center;
