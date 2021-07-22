@@ -33,31 +33,29 @@ function Projects() {
       <div className="carousel-div">
         <Carousel>
           {projects.map(project => 
-            <>
-              <div key={project.id}>
-                <div>
-                  <div className="card-div">
-                    <div id="image-div">
-                      <img id="inner-image" width="850px" src={project.image} alt={project.title}/>
+            <div key={project.id}>
+              <div>
+                <div className="card-div">
+                  <div id="image-div">
+                    <img id="inner-image" width="850px" src={project.image} alt={project.title}/>
                     
+                  </div>
+                  <div id="description-div">
+                    <div id="inner-description-div">
+                      <h1 id="card-title">{project.title} </h1>
+                      <h3 id="card-subtitle">{project.header}</h3>
+                      <p>{project.description1}</p>
+                      <p>{project.description2} </p>
                     </div>
-                    <div id="description-div">
-                      <div id="inner-description-div">
-                        <h1 id="card-title">{project.title} </h1>
-                        <h3 id="card-subtitle">{project.header}</h3>
-                        <p>{project.description1}</p>
-                        <p>{project.description2} </p>
-                      </div>
-                      <div className="button-div">
-                        <button id="contact-button-2"><a className="card-link" target="blank" href={project.site}>Go to site</a></button>
-                        <br/>
-                        <button id="contact-button-2"><a className="card-link"  target="blank" href={project.github}>Go to GitHub</a></button>
-                      </div>
+                    <div className="button-div">
+                      <button id="contact-button-2"><a className="card-link" target="blank" href={project.site}>Go to site</a></button>
+                      <br/>
+                      <button id="contact-button-2"><a className="card-link"  target="blank" href={project.github}>Go to GitHub</a></button>
                     </div>
                   </div>
                 </div>
               </div>
-            </>
+            </div>
           )}
         </Carousel>
       </div>

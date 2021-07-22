@@ -196,6 +196,7 @@ Intro Section
   font-family: Helvetica;
   border: 1px solid white;
   padding: 20px;
+  padding-bottom: 15px;
   border-radius: 2%;
 }
 
@@ -294,7 +295,13 @@ Intro Section
   margin-top: 4px;
 }
 
-
+// Styling realting to MORE about section
+.more-about-button{
+  display: inline-flex;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 6px;
+}
 
 
 
