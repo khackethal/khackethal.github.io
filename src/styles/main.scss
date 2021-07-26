@@ -340,20 +340,22 @@
 
 .more-about-div-button{
   display: inline-flex;
-  flex-wrap: wrap;
-  font-size: 15px;
+  font-size: 12px;
   text-transform: uppercase;
   text-align: center;
   background-color:black;
   color:white;
   border: 1px solid white;
-  min-width: 23px;
-  max-width: 5%;
+  min-width: 52px;
+  max-width: 15%;
   min-height: 23px;
-  max-height: 5%;
+  max-height: 15%;
   margin: 5%;
+  padding-top: 1%;
   border-radius: 2%;
   text-align: center;
+  padding: 5px;
+
 }
 
 .more-about-div-button:hover{
@@ -466,8 +468,6 @@
 .more-about-text-div{
   display: flex;
   flex-direction: column;
-  // align-items: center;
-  // justify-content: center;
   flex-wrap: wrap;
   font-style: Helvetica;
   font-size: 15px;

@@ -125,7 +125,7 @@ function About () {
                 <p>Guitar - Fairly well</p>
                 <p>Drums - Badly, but with confidence</p>
                 <br></br>
-                <button className="more-about-div-button" onClick={handleShowMusic}>x</button>
+                <button className="more-about-div-button" onClick={handleShowMusic}>Close</button>
               </div>
             </div>
           }
@@ -140,7 +140,7 @@ function About () {
                 <p><a id="external-link" href="https://en.wikipedia.org/wiki/Mensch_%C3%A4rgere_Dich_nicht" target="blank">{' =>  Read about it'}</a></p>
                 <p><a id="external-link" href="https://en.wikipedia.org/wiki/Bomberman_Online" target="blank">Digital: Bomberman</a></p>
                 <p><a id="external-link" href="https://stadia.google.com/games/super-bomberman-r-online" target="blank">{' => Play it online'}</a></p>
-                <button className="more-about-div-button" onClick={handleShowGames}>x</button>
+                <button className="more-about-div-button" onClick={handleShowGames}>Close</button>
               </div>
             </div>
           }
@@ -155,7 +155,7 @@ function About () {
                 <p><a id="external-link" href="https://www.amazon.co.uk/Overstory-Shortlisted-Booker-Prize-2018/dp/1784708240" target="blank">The Overstory - Richard Powers</a></p>
                 <p><a id="external-link" href="https://www.penguinrandomhouse.com/books/612693/death-in-her-hands-by-ottessa-moshfegh/" target="blank"> Death in Her Hands - Ottessa Moshfegh </a> </p>
                 <p><a id="external-link" href="https://www.penguin.co.uk/books/178/178533/tubes/9780141049090.html" target="blank"> Tubes - Andrew Blum </a> </p>
-                <button className="more-about-div-button" onClick={handleShowCurrentlyReading}>x</button>
+                <button className="more-about-div-button" onClick={handleShowCurrentlyReading}>Close</button>
               </div>
             </div>
           }
@@ -171,7 +171,7 @@ function About () {
                 <p>Next.js</p>
                 <p>Web GL</p>
                 <br></br>
-                <button className="more-about-div-button" onClick={handleShowCurrentlyLearning}>x</button>
+                <button className="more-about-div-button" onClick={handleShowCurrentlyLearning}>Close</button>
               </div>
             </div>
           }
