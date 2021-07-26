@@ -120,8 +120,11 @@ function About () {
             <div className="more-about-text-div">
               <h2 id="more-about-card-title-black">Instruments I play</h2>
               <div className="inner-about">
+                <br></br>
+                <br></br>
                 <p>Guitar - Fairly well</p>
                 <p>Drums - Badly, but with confidence</p>
+                <br></br>
                 <button className="more-about-div-button" onClick={handleShowMusic}>x</button>
               </div>
             </div>
@@ -148,6 +151,7 @@ function About () {
             <div className="more-about-text-div">
               <h2 id="more-about-card-title-black">Currently Reading</h2>
               <div className="inner-about">
+                <br></br>
                 <p><a id="external-link" href="https://www.amazon.co.uk/Overstory-Shortlisted-Booker-Prize-2018/dp/1784708240" target="blank">The Overstory - Richard Powers</a></p>
                 <p><a id="external-link" href="https://www.penguinrandomhouse.com/books/612693/death-in-her-hands-by-ottessa-moshfegh/" target="blank"> Death in Her Hands - Ottessa Moshfegh </a> </p>
                 <p><a id="external-link" href="https://www.penguin.co.uk/books/178/178533/tubes/9780141049090.html" target="blank"> Tubes - Andrew Blum </a> </p>
@@ -162,8 +166,11 @@ function About () {
             <div className="more-about-text-div">
               <h2 id="more-about-card-title-black">Currently Learning</h2>
               <div className="inner-about">
+                <br></br>
+                <br></br>
                 <p>Next.js</p>
                 <p>Web GL</p>
+                <br></br>
                 <button className="more-about-div-button" onClick={handleShowCurrentlyLearning}>x</button>
               </div>
             </div>
