@@ -167,10 +167,9 @@ function About () {
               <h2 id="more-about-card-title-black">Currently Learning</h2>
               <div className="inner-about">
                 <br></br>
-                <br></br>
                 <p>Next.js</p>
+                <p>Redux</p>
                 <p>Web GL</p>
-                <br></br>
                 <button className="more-about-div-button" onClick={handleShowCurrentlyLearning}>Close</button>
               </div>
             </div>
