@@ -22,7 +22,7 @@ function Projects() {
       site: 'https://khackethal.github.io/project-1/' , github: 'https://github.com/khackethal/project-1' },
     { id: 5, title: 'SpaceLab' , image: 'https://s6.gifyu.com/images/Screen-Recording-2021-07-13-at-17.23.39.gif', header: 'Ongoing Side Project, Goup of several UX Designers, Data Scientists and Software Engineers',
       description1: 'Ongoing side project, working with a great team of Data Scientists and UX Designers. Our aim is to create a website that uses a new algorithm developed by the Data Scientists to analyse data from the TESS and KEPLER telescopes to discover and map new exoplanets. ',
-      site: 'http://spacelab.space/' , github: 'https://github.com/khackethal/spacelab' }
+      site: 'http://spacelab.space/' , github: 'https://github.com/spacelabdev/spacelab-react' }
   ]
 
 
